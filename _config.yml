@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
+title: Monniya
+subtitle: 简单，美好，奋发
+description: 一只萌哒哒的兔子，走在产品进阶之路
+author: Monniya
 language:
 timezone:
 
@@ -63,8 +63,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
-
+#theme: landscape
+theme: vno
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
