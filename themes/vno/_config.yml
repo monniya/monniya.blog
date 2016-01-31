@@ -1,7 +1,8 @@
 menu:
   #Archives: /archives
-  #项目作品: /projects
-  关于我: /aboutme
+  黄金屋: /favourite
+  时光机: /favourite
+  我是: /aboutme
 rss: /atom.xml
 description: 
 social:
@@ -25,3 +26,4 @@ duoshuo_shortname:
 
 google_analytics: 
 favicon: /images/avatar-small.png
+

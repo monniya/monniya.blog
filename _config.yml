@@ -5,7 +5,7 @@
 # Site
 title: Monniya
 subtitle: 简单，美好，奋发
-description: 一只萌哒哒的兔子,走在产品进阶之路
+description: 一只萌哒哒的兔子<br />走在产品进阶之路
 author: Monniya
 language:
 timezone:
@@ -72,6 +72,7 @@ deploy:
   repo: https://github.com/monniya/monniya.github.io.git
 
 image_stream:
-  jquery: http://cdn.bootcss.com/jquery/2.1.0/jquery.min.js
-  jquery_lazyload: http://cdn.bootcss.com/jquery.lazyload/1.9.1/jquery.lazyload.min.js
+  #jquery: //cdn.bootcss.com/jquery/2.1.0/jquery.min.js
+  jquery: false
+  jquery_lazyload: //cdn.bootcss.com/jquery.lazyload/1.9.1/jquery.lazyload.min.js
   img_placeholder: http://ww4.sinaimg.cn/large/e724cbefgw1etyppy7bgwg2001001017.gif
