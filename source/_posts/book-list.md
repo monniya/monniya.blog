@@ -18,7 +18,7 @@ categories: skills
 [《浪潮之巅》吴军](http://book.douban.com/subject/6709783/)
 
 - 术（方法论）
-[《启示录》[美] Marty Cagan ](http://book.douban.com/subject/5914587/)<code>一期</code>
+[《启示录》[美] Marty Cagan ](http://book.douban.com/subject/5914587/)<code>一期</code> <code>在读</code> <code>[读书笔记](http://monniya.com/2016/01/31/read-inspired/)</code>
 [《精益创业》[美] 埃里克·莱斯 ](http://book.douban.com/subject/10945606/)<code>一期</code>
 [《设计心理学》[美]唐纳德·A·诺曼 ](http://book.douban.com/subject/4606471/)<code>一期</code>
 [《麦肯锡问题分析与解决技巧》[日]高杉尚孝](http://book.douban.com/subject/25916832/)<code>一期</code>

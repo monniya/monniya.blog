@@ -1,7 +1,7 @@
 ---
 title: 团队管理
 date: 2016-01-14 22:53:26
-tags: 碎碎念
+tags: 念念碎
 comments: true
 categories: talking
 ---

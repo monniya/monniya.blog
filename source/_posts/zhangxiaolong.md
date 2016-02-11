@@ -1,7 +1,7 @@
 ---
 title: 张小龙效应
 date: 2016-01-11 22:21:28
-tags: 碎碎念
+tags: 念念碎
 comments: true
 categories: talking
 ---

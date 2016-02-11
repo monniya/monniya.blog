@@ -2,6 +2,7 @@
 title: linux自建git私有仓库
 date: 2015-08-30 21:29:17
 tags: 敲敲码
+comments: true
 ---
 > 一、下载git
 

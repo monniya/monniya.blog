@@ -1,14 +1,19 @@
-<% if (config.disqus_shortname && page.comments){ %>
+<% if (config.disqus_shortname ){ %>
 <section class="post-comments">
   <div id="disqus_thread"></div>
   <script type="text/javascript">
       var disqus_shortname = '<%= config.disqus_shortname%>'; // required: replace example with your forum shortname
-      
+      <% if (page.comments) {%>
+  var disqus_identifier = '/<%- page.path %>';
+  var disqus_title = '<%- page.title %>';
+  var disqus_url = '<%- config.url %>/<%- page.path %>';
+  <% } %>
 
       /* * * DON'T EDIT BELOW THIS LINE * * */
       (function() {
           var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          //dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          dsq.src = '//a.disquscdn.com/<% if (page.comments) { %>embed.js<% } else { %>count.js<% } %>';
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
   </script>

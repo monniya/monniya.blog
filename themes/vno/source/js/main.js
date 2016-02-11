@@ -10,11 +10,14 @@ $(document).ready(function() {
       $('.content-wrapper').addClass('animated slideInRight');
     } else {
       $('.panel-cover').css('max-width',currentWidth);
-      $('.panel-cover').animate({'max-width': '500px', 'width': '30%'}, 400, swing = 'swing', function() {} );
+      $('.panel-cover').animate({'max-width': '465px', 'width': '26%'}, 400, swing = 'swing', function() {} );
     }
   });
 
   if (window.location.hash && window.location.hash == "#blog") {
+    $('.panel-cover').addClass('panel-cover--collapsed');
+  }
+  if (window.location.hash && window.location.hash == "/favourite") {
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
 
